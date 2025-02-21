@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
 from scipy.stats import laplace as sp_laplace
-from stats.distributions.laplace import LaplaceDistribution
+from stats.distribution.laplace import LaplaceDistribution
 
 
 class TestLaplaceDistribution(unittest.TestCase):
